@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefWidth="280.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxdemo.controller.QuizPageController">
+    <stylesheets>
+        <URL value="@./css/quizpage.css" />
+    </stylesheets>
+    <Label fx:id="questionNumberLabel" styleClass="question-number" />
+
+    <VBox prefHeight="338.0" prefWidth="309.0" styleClass="quiz-content">
+        <Label fx:id="questionLabel" styleClass="question-label" />
+        <Button fx:id="answerButton1" onAction="#checkAnswer" styleClass="answer-button" />
+        <Button fx:id="answerButton2" onAction="#checkAnswer" styleClass="answer-button" />
+        <Button fx:id="answerButton3" onAction="#checkAnswer" styleClass="answer-button" />
+        <Button fx:id="answerButton4" onAction="#checkAnswer" styleClass="answer-button" />
+        <Label fx:id="resultLabel" text="" />
+    </VBox>
+
+
+
+</VBox>

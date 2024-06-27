@@ -1,0 +1,40 @@
+/* quizpage.css */
+
+.question-number {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.quiz-content {
+    -fx-spacing: 10;
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+.question-label {
+    -fx-font-size: 18px;
+}
+
+.answer-button {
+    -fx-font-size: 16px;
+    -fx-min-width: 200;
+    -fx-min-height: 50;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+.result-label {
+    -fx-font-size: 16px;
+}
+
+.correct-answers-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #27ae60;
+    -fx-font-weight: bold;
+}
+
+.incorrect-answers-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #e74c3c;
+    -fx-font-weight: bold;
+}

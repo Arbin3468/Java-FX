@@ -1,0 +1,53 @@
+/* Apply styles to the root VBox */
+.root{
+-fx-background-image:url('../images/dash.png');
+-fx-background-size:cover;
+}
+.dashboard-background {
+    -fx-background-color: #f2f2f2;
+    -fx-padding: 20px;
+}
+
+/* Style the dashboard header */
+.dashboard-header {
+    -fx-background-color: #3498db;
+    -fx-padding: 10px;
+}
+
+.account-name-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+/* Style the dashboard title */
+.dashboard-title {
+    -fx-font-size: 24px;
+}
+
+/* Style the quiz content */
+.quiz-content {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+}
+
+.welcome-label {
+    -fx-font-size: 18px;
+}
+
+.quiz-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.play-quiz-button {
+    -fx-background-color: #27ae60;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.progress-bar {
+    -fx-background-color: #ecf0f1;
+}

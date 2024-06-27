@@ -1,0 +1,48 @@
+/* Your CSS file */
+
+.root{
+-fx-background-image:url('../images/register3.png');
+-fx-background-size:cover;
+}
+.main-container {
+    -fx-background-color: linear-gradient(to right bottom,#FC466B,#3F5EFB); /* Background color for the container */
+    -fx-padding: 20; /* Add padding for spacing */
+}
+
+.h2-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333; /* Dark gray text color */
+}
+
+.input-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #666; /* Slightly lighter text color */
+}
+
+.input-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5 10; /* Add some padding for input fields */
+    -fx-background-color: #fff; /* White background for input fields */
+    -fx-border-color: #ccc; /* Light gray border color */
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+}
+
+.btn {
+    -fx-font-size: 16px;
+    -fx-text-fill: #fff; /* White text color for buttons */
+    -fx-background-color: #007bff; /* Blue background color for buttons */
+}
+
+.btn:hover {
+    -fx-background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.btn-primary {
+    -fx-background-color: #007bff; /* Blue background color for primary button */
+}
+.error-background {
+    -fx-background-color: red;
+}
